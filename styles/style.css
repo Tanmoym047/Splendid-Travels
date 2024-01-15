@@ -1,0 +1,83 @@
+/* common styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Mulish';
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+}
+
+/* banner styles */
+#banner {
+    width: 81.25%;
+    margin: 0 auto 100px;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    border-radius: 16px;
+}
+
+#banner h3 {
+    padding-top: 9%;
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    /* border: 1px solid black; */
+    margin-bottom: 1.5rem;
+
+}
+
+#banner p {
+    padding-top: 0;
+    padding-bottom: 3rem;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 57.77%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+}
+
+#banner form {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    /* border: 1px solid black; */
+    width: 69%;
+    margin: 0 auto;
+    display: flex;
+    gap:10px;
+    justify-content: space-around;
+    padding: 1rem 1rem;
+}
+
+#banner form input,
+select {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 1rem 5.25rem 1rem 1rem;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border: 0;
+}
+
+#banner button {
+    padding: 1rem 2rem;
+    color: #FFF;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+#banner div {
+    padding-bottom: 9%;
+}
