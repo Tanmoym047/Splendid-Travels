@@ -133,6 +133,95 @@ select {
     margin-top: 20px;
 }
 
+/* destination styles */
+#destination {
+    width: 81.25%;
+    margin: auto;
+    text-align: center;
+}
+
+.destination-images {
+    margin-top: 3rem;
+    margin-bottom: 6.25rem;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid: 1;
+    gap: 24px;
+}
+
+.destination-images div {
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img1 {
+    background-image: url('../Images/Rectangle\ 5.png');
+    grid-column: 1/span 6;
+}
+
+#img2 {
+    background-image: url('../Images/Rectangle\ 8.png');
+    grid-column: 7/span 6;
+}
+
+#img3 {
+    background-image: url('../Images/Rectangle\ 6.png');
+    grid-column: 1/span 4;
+}
+
+#img4 {
+    background-image: url('../Images/Rectangle\ 7.png');
+    grid-column: 5/span 5;
+}
+
+#img5 {
+    background-image: url('../Images/Rectangle\ 9.png');
+    grid-column: 10/span 3;
+}
+
+#img6 {
+    background-image: url('../Images/Rectangle\ 11.png');
+    grid-column: 1/span 5;
+}
+
+#img7 {
+    background-image: url('../Images/Rectangle\ 10.png');
+    grid-column: 6/span 7;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* choose */
+#choose {
+    text-align: center;
+    width: 81.25%;
+    margin: auto;
+}
+
+#choose {
+    display: grid;
+
+}
+
 /* perfect style */
 
 #perfect {
@@ -143,7 +232,7 @@ select {
     gap: 25px;
 }
 
-.perfect-text ul li{
+.perfect-text ul li {
     color: #131318;
     font-size: 1rem;
     font-weight: 700;
@@ -151,12 +240,14 @@ select {
     margin-bottom: 1rem;
 }
 
-.perfect-text button{
-    padding:1rem 2.8rem;
+.perfect-text button {
+    padding: 1rem 2.8rem;
 }
-#perfect video{
+
+#perfect video {
     border-radius: 16px;
 }
+
 /* newsletter styles */
 #newsletter {
     width: 81.25%;
