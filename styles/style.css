@@ -136,7 +136,7 @@ select {
 /* newsletter styles */
 #newsletter {
     width: 81.25%;
-    margin: 6.4rem auto;
+    margin: 6.4rem auto 1.9rem;
     /* border: 1px solid black; */
     justify-content: center;
     display: flex;
@@ -186,7 +186,7 @@ select {
     /* border: 1px solid black; */
     position: relative;
     left: 1060px;
-    bottom: 270px;
+    bottom: 200px;
     /* transform: translate(300px, -100px); */
     transform: rotate(-25deg);
 }
