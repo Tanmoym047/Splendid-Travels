@@ -12,6 +12,10 @@ body {
     border-radius: 8px;
     background: #FF5400;
     border: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
 }
 
 .para {
@@ -88,7 +92,6 @@ select {
     text-align: center;
     font-size: 1rem;
     font-weight: 700;
-
 }
 
 #banner div {
@@ -128,7 +131,81 @@ select {
 
 .tour-image img {
     margin-top: 20px;
-    ;
+}
+
+/* newsletter styles */
+#newsletter {
+    width: 81.25%;
+    margin: 6.4rem auto;
+    /* border: 1px solid black; */
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+}
+
+.newsletter-text {
+    padding: 2rem;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-text h3 {
+    font-size: 1.5rem;
+}
+
+.newsletter-text p {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 1.5rem;
+}
+
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+#newsletter form input {
+    border: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1rem 10rem 1rem 1rem;
+    margin-bottom: 1rem;
+}
+
+#newsletter form button {
+    text-align: center;
+    padding: 1rem 5rem;
+    border: 1px solid black;
+}
+
+#off {
+    padding: 1rem;
+    width: 18%;
+    border-radius: 10.569px;
+    background: #FF5400;
+    /* border: 1px solid black; */
+    position: relative;
+    left: 1060px;
+    bottom: 270px;
+    /* transform: translate(300px, -100px); */
+    transform: rotate(-25deg);
+}
+
+#off h5 {
+    margin:0;
+    /* border: 1px solid black; */
+    color: #FFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+#off h4 {
+    margin:0;
+    /* border: 1px solid black; */
+    color: #FFF;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
 }
 
 /* footer styles */
@@ -149,16 +226,15 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#131318;
+    color: #131318;
     font-size: 2rem;
-    font-weight: 800;  
-    gap: 10px;  
-}
-#footer h3 img{
-      
+    font-weight: 800;
+    gap: 10px;
 }
 
-.footer-icon{
+#footer h3 img {}
+
+.footer-icon {
     margin-top: 2rem;
     display: flex;
     gap: 30px;
@@ -168,6 +244,7 @@ footer {
     margin-bottom: 3.125rem;
 
 }
-#footer i{
+
+#footer i {
     font-size: 2rem;
 }
