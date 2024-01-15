@@ -101,7 +101,7 @@ select {
 /* tour styles */
 #tour {
     width: 81.25%;
-    margin: auto;
+    margin: 0 auto 6.4rem;
     display: flex;
     /* border: 1px solid black; */
     justify-content: center;
@@ -133,6 +133,30 @@ select {
     margin-top: 20px;
 }
 
+/* perfect style */
+
+#perfect {
+    width: 81.25%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.perfect-text ul li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+
+.perfect-text button{
+    padding:1rem 2.8rem;
+}
+#perfect video{
+    border-radius: 16px;
+}
 /* newsletter styles */
 #newsletter {
     width: 81.25%;
@@ -192,15 +216,16 @@ select {
 }
 
 #off h5 {
-    margin:0;
+    margin: 0;
     /* border: 1px solid black; */
     color: #FFF;
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 #off h4 {
-    margin:0;
+    margin: 0;
     /* border: 1px solid black; */
     color: #FFF;
     text-align: center;

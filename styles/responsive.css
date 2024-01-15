@@ -52,6 +52,11 @@
         width: 100%;
     }
 
+    /* perfect style */
+    #perfect {
+        flex-direction: column;
+    }
+
     /* newsletter */
     #newsletter {
         margin: 1rem auto 0.1rem;
@@ -163,6 +168,11 @@
     .tour-image img {
         margin-top: 0;
         width: 100%;
+    }
+
+    /* perfect style */
+    #perfect {
+        flex-direction: column;
     }
 
     /* newsletter */
