@@ -14,6 +14,19 @@ body {
     border: 0;
 }
 
+.para {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.head {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 /* banner styles */
 #banner {
     width: 81.25%;
@@ -53,7 +66,7 @@ body {
     width: 69%;
     margin: 0 auto;
     display: flex;
-    gap:10px;
+    gap: 10px;
     justify-content: space-around;
     padding: 1rem 1rem;
 }
@@ -80,4 +93,37 @@ select {
 
 #banner div {
     padding-bottom: 9%;
+}
+
+/* tour styles */
+#tour {
+    width: 81.25%;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid black; */
+    gap: 70px;
+}
+
+#first-para {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.tour-text ul li {
+    margin-bottom: 1rem;
+}
+
+.tour-text button {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.875rem 2.125rem;
+}
+
+#second-para {
+    margin-bottom: 2rem;
+}
+.tour-image img{
+    margin-top: 20px;;
 }
