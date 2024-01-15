@@ -31,6 +31,33 @@ body {
     font-weight: 800;
 }
 
+/* nav bar */
+nav {
+    width: 81.25%;
+    margin: 30px auto 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h3 {
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 2.75rem;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
 /* banner styles */
 #banner {
     width: 81.25%;
@@ -338,7 +365,8 @@ footer {
     padding-bottom: 3%;
 }
 
-#footer h3 {
+#footer h3,
+nav h3 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -347,8 +375,6 @@ footer {
     font-weight: 800;
     gap: 10px;
 }
-
-#footer h3 img {}
 
 .footer-icon {
     margin-top: 2rem;
