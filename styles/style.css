@@ -58,6 +58,7 @@ nav>ul {
 }
 .bar{
     display: none;
+    visibility: hidden;
 }
 
 
