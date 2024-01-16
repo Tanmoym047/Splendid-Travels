@@ -243,7 +243,8 @@ select {
     width: 81.25%;
     margin: auto;
 }
-#choose p{
+
+#choose p {
     margin-bottom: 3rem;
 }
 
@@ -252,6 +253,12 @@ select {
     grid-template-columns: repeat(12, 1fr);
     gap: 24px;
     text-align: left;
+}
+
+.choose-card h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
 
 #card1 {
@@ -274,7 +281,10 @@ select {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
-#card1, #card2,#card3{
+
+#card1,
+#card2,
+#card3 {
     padding: 1.5rem;
 }
 
@@ -371,7 +381,8 @@ select {
 .deal-card1 button {
     padding: 14px 25px;
 }
-#see-button{
+
+#see-button {
     width: 81.25%;
     margin: auto;
     text-align: center;
