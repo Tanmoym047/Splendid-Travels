@@ -143,18 +143,18 @@
     /* deal */
     .deal-image {
         border-radius: 16px;
-        width: auto;
-        height: 600px;
+        width: 100%;
+        height: 800px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .deal-card {
         text-align: left;
-        width: 50%;
-        height: 60%;
+        width: 100%;
+        height: auto;
         border-radius: 16px;
         border: 2px solid #FFF;
         background: rgba(255, 255, 255, 0.80);
@@ -184,14 +184,22 @@
         font-weight: 800;
     }
 
+    .font {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+
     /* deal image 1 */
     .deal-image1 {
         border-radius: 16px;
         width: 100%;
-        height: 600px;
-        flex-direction: column;
+        height: 900px;
+        flex-direction: row;
         justify-content: flex-end;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .deal-card1 {
@@ -353,6 +361,51 @@
     /* destination */
     .destination-images {
         margin-bottom: 1rem;
+    }
+
+    /* deal */
+    .deal-image {
+        border-radius: 16px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .deal-card {
+        text-align: left;
+        width: 50%;
+        height: 60%;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 50px;
+        /* margin-right: 55px; */
+    }
+
+    .deal-image1 {
+        border-radius: 16px;
+        width: 100%;
+        height: 100%;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .deal-card1 {
+        /* border: 10px solid black; */
+        text-align: left;
+        width: 50%;
+        height: auto;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        padding: 50px;
+        margin-left: 55px;
     }
 
     /* perfect style */
