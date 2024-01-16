@@ -13,7 +13,9 @@
     }
 
     nav>ul {
-        flex-direction: column;
+        margin-right: 30px;
+        gap: 0.5rem;
+        justify-content: center;
     }
 
     /* banner styles */
