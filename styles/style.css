@@ -132,7 +132,7 @@ select {
 /* tour styles */
 #tour {
     width: 81.25%;
-    margin: 0 auto 6.4rem;
+    margin: 0 auto 5rem;
     display: flex;
     /* border: 1px solid black; */
     justify-content: center;
@@ -167,7 +167,7 @@ select {
 /* destination styles */
 #destination {
     width: 81.25%;
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -308,6 +308,7 @@ select {
     height: 550px;
     margin: auto;
     background-image: url('../Images/Group\ 40.png');
+    
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
