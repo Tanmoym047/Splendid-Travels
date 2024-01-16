@@ -339,7 +339,10 @@ select {
 .deal-card1 button {
     padding:14px 25px;
 }
-
+.see{
+    margin: 48px auto 70px;
+    padding: 14px 20px;
+}
 
 /* perfect style */
 

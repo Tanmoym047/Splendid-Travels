@@ -170,7 +170,10 @@
         padding: 50px;
         margin-left: 55px;
     }
-
+    .see{
+        margin: 10px auto 10px;
+        padding: 14px 20px;
+    }
     /* perfect style */
     #perfect {
         flex-direction: column;
