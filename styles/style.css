@@ -371,6 +371,11 @@ select {
 .deal-card1 button {
     padding: 14px 25px;
 }
+#see-button{
+    width: 81.25%;
+    margin: auto;
+    text-align: center;
+}
 
 .see {
     margin: 48px auto 70px;
