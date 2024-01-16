@@ -296,7 +296,7 @@
 
 
 /* tablet */
-@media screen and (min-width:600px) and (max-width: 992px) {
+@media screen and (min-width:601px) and (max-width: 992px) {
 
     /* common style */
     .head {
@@ -436,7 +436,7 @@
 
     #off {
         padding: 1rem;
-        width: 45%;
+        width: 40%;
         border-radius: 10.569px;
         background: #FF5400;
         /* border: 1px solid black; */
