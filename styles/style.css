@@ -249,6 +249,98 @@ select {
 
 }
 
+/* deal */
+#deal {
+    width: 81.25%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.deal-image {
+    border-radius: 16px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background-image: url('../Images/Group\ 40.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.deal-card {
+    text-align: left;
+    width: 50%;
+    height: 60%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    margin-right: 55px;
+}
+
+.deal-card h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deal-card h4 {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.deal-card button {
+    padding:14px 25px;
+}
+/* deal image 1 */
+
+.deal-image1 {
+    border-radius: 16px;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    background-image: url('../Images/Group\ 40.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.deal-card1 {
+    text-align: left;
+    width: 50%;
+    height: 60%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px;
+    margin-left: 55px;
+}
+
+.deal-card1 h3 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.deal-card1 h4 {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.deal-card1 button {
+    padding:14px 25px;
+}
+
+
 /* perfect style */
 
 #perfect {
