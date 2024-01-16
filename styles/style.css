@@ -56,6 +56,9 @@ nav>ul {
     font-size: 18px;
     font-weight: 400;
 }
+.bar{
+    display: none;
+}
 
 
 /* banner styles */

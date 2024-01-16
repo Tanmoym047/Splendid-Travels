@@ -9,13 +9,24 @@
 
     /* nav bar */
     nav {
-        flex-direction: column;
+        flex-direction: row;
     }
 
-    nav>ul {
+    nav h3 {
+        color: #131318;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+
+    nav>ul>li {
+        display: none;
         margin-right: 30px;
         gap: 0.5rem;
         justify-content: center;
+    }
+
+    .bar {
+        display: block;
     }
 
     /* banner styles */
@@ -285,7 +296,18 @@
 
     /* nav style */
     nav {
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    nav>ul>li {
+        display: none;
+        margin-right: 30px;
+        gap: 0.5rem;
+        justify-content: center;
+    }
+
+    .bar {
+        display: block;
     }
 
     /* banner styles */
